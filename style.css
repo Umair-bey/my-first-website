@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;  }
+
+h1 { text-align: center; color: #333; }
+
+fieldset {
+    border: 1px solid #090808;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;  }
+
+legend { font-weight: bold; padding: 0 10px; color: #444; }
+
+label { display: block; margin-top: 10px; font-weight: bold; }
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  }
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;  }
+
+button:hover { background-color: #218838; }
+
+.error { color: red; font-size: 13px; min-height: 15px; }
+
+.success {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;  }
+
+#cardSection, #upiSection {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px dashed #ccc;
+}
+
+#errorPay {
+    margin-top: 5px;
+    font-weight: bold;
+}

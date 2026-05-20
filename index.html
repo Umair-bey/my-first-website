@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <h1>Online Exam Registration</h1>
+    <form id="regForm">
+        <fieldset>
+            <h4><legend>Personal Information</legend></h4>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter name (no digits/symbols)">
+            <div id="errorName" class="error"></div>
+
+            <label for="email">Email ID:</label>
+            <input type="text" id="email" placeholder="example@domain.com">
+            <div id="errorEmail" class="error"></div>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" placeholder="10 digits starting with 7, 8, or 9">
+            <div id="errorMobile" class="error"></div>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+            <div id="errorDob" class="error"></div>
+        </fieldset>
+        <fieldset>
+            <h4><legend>Educational Information</legend></h4>
+            <label for="marksX">X Marks (%):</label>
+            <input type="number" id="marksX" placeholder="Mandatory">
+            <div id="errorX" class="error"></div>
+
+            <label for="marksXII">XII Marks (%):</label>
+            <input type="number" id="marksXII" placeholder="Mandatory">
+            <div id="errorXII" class="error"></div>
+            
+            <label for="otherEdu">Other Details (Optional):</label>
+            <input type="text" id="otherEdu">
+        </fieldset>
+        <fieldset>
+        <legend>Payment Information</legend>
+        <label for="payMethod">Payment Method:</label>
+         <select id="payMethod">
+          <option value="">--Select--</option>
+          <option value="card">Card Payment</option>
+          <option value="upi">UPI Payment</option>
+         </select>
+
+         <div id="cardSection" style="display:none; margin-top: 10px;">
+            <label for="cardNo">Card Number:</label>
+             <input type="text" id="cardNo" placeholder="Enter 16-digit card number">
+         </div>
+
+        <div id="upiSection" style="display:none; margin-top: 10px;">
+              <label for="upiId">UPI ID:</label>
+             <input type="text" id="upiId" placeholder="example@upi">
+         </div>
+    
+         <div id="errorPay" class="error"></div>
+    </fieldset>
+
+        <button type="submit">Register</button>
+        <div id="successMessage" class="success"></div>
+    </form>
+    <script src="Registration.js"></script>
+</body>
+</html>

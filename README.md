@@ -5,6 +5,16 @@ I created this project to practice and improve my frontend development skills.
 
 ---
 
+# 🌍 Live Demo
+
+**Website:**  
+https://umair-bey.github.io/my-first-website/
+
+**GitHub Repository:**  
+https://github.com/Umair-bey/my-first-website
+
+---
+
 ## 🚀 Features
 
 - Simple and clean UI

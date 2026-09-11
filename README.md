@@ -1,7 +1,5 @@
 # 🌐 My First Website
 
--> applied changes
-
 This is my first website project made using basic web development technologies.  
 I created this project to practice and improve my frontend development skills.
 
